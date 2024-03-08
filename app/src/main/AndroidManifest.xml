@@ -18,6 +18,9 @@
         android:usesCleartextTraffic="true"
         tools:targetApi="31">
         <activity
+            android:name=".Admin.Addevent"
+            android:exported="false" />
+        <activity
             android:name=".Adminactivity"
             android:exported="false" />
         <activity
