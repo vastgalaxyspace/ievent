@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@color/white"
+    tools:context=".start.MainActivity">
+
+    <ImageView
+        android:id="@+id/getstaimg"
+        android:layout_width="match_parent"
+        android:layout_height="303dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="3dp"
+        android:background="@color/white"
+        android:src="@drawable/getsta"
+
+        />
+
+    <TextView
+        android:id="@+id/getstar"
+        android:layout_width="match_parent"
+        android:layout_height="87dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@color/white"
+        android:fontFamily="@font/adamina"
+        android:gravity="center"
+        android:text="@string/getstring"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="@dimen/_20sdp"
+        />
+
+    <TextView
+        android:id="@+id/getstring1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_25sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:gravity="center"
+        android:text="@string/getstring1"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/getbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:text="Get Started" />
+</LinearLayout>

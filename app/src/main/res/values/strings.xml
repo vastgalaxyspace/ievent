@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">event</string>
+    <string name="ievent">IEvent</string>
+    <string name="getstring">Plans are nothing. Planning is everything</string>
+    <string name="getstring1">Join our app\'s immersive hackathons, insightful seminars, and exciting events where you can learn from industry leaders, connect with fellow enthusiasts, and compete for amazing prizes!</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="logintext">Login</string>
+    <string name="hometext">Welcome to our hackathon and seminar – where ideas become reality</string>
+</resources>
