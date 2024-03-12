@@ -39,6 +39,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/addeventcard"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -81,6 +82,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/registerstudentcard"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
@@ -115,7 +117,7 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="8dp"
-                    android:text="Customer accounts"
+                    android:text="Register Students"
                     android:layout_gravity="center_horizontal"
                     android:textSize="14sp"
                     android:textStyle="bold"
@@ -125,6 +127,7 @@
         </androidx.cardview.widget.CardView>
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/seeevent"
             android:layout_width="0dp"
             android:layout_height="0dp"
             android:layout_rowWeight="1"
